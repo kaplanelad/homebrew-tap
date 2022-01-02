@@ -1,5 +1,5 @@
 
-class rustgithubactions < Formula
+class Rustgithubactions < Formula
   
   desc ""
   homepage "https://github.com/kaplanelad/rust-github-actions"
