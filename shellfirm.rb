@@ -8,17 +8,17 @@ class Shellfirm < Formula
   
   if OS.mac?
     url "https://github.com/kaplanelad/shellfirm/releases/download/v0.1.2/shellfirm-v0.1.2-x86_64-macos.tar.xz"
-    sha256 "85a268d64e74de31c215b7074ace3cd2b665e0431448f1db6dcb82c543690470"
+    sha256 "8ea8f8d6d757aff4e387d038c37a6a146110855315cf5d4cce1b38de991aafbb"
   end
  
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/kaplanelad/shellfirm/releases/download/v0.1.2/shellfirm-v0.1.2-x86_64-linux.tar.xz"
-    sha256 "2a26bdf0854cf2912c315cca8d1b86b8d7509f292c7e8636ad0d167929cc2b15"
+    sha256 "ed11fbd1125d42d6a9f2d84443b4b462fc7bc60772aac4be76c2cd3a3d166b80"
   end
   
   if OS.linux? && Hardware::CPU.arm? 
     url "https://github.com/kaplanelad/shellfirm/releases/download/v0.1.2/shellfirm-v0.1.2-aarch64-linux.tar.xz"
-    sha256 "e97b21fb7242222cb7b1316699739181634f767592040f0d17e7b0eedbbba54b"
+    sha256 "419d0f8002a1b5274b5490789efe8183bb058a81b402acf7b9ac6507ac1ca8b9"
   end
   
   def install
