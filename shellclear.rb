@@ -1,5 +1,5 @@
 class Shellclear < Formula
-  desc "CLI tool for mange shell history"
+  desc "Preventive sensetive data in your shell history"
   homepage "https://github.com/rusty-ferris-club/shellclear"
   url "-----"
   version "-----"
