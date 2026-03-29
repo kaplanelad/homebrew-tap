@@ -2,9 +2,9 @@ class Shellfirm < Formula
   desc "Intercept any risky patterns (default or defined by you) and prompt you a small challenge for double verification"
   homepage "https://github.com/kaplanelad/shellfirm"
   license "Apache 2.0"
-  version "0.3.8"
-  url "https://github.com/kaplanelad/shellfirm/releases/download/v0.3.8/shellfirm-v0.3.8-x86_64-macos.tar.xz"
-  sha256 "7d352fb220f018028330636b6efb8cbcf233a50aacd4089e10020cb26b8e274f"
+  version "0.3.9"
+  url "https://github.com/kaplanelad/shellfirm/releases/download/v0.3.9/shellfirm-v0.3.9-x86_64-macos.tar.xz"
+  sha256 "1edd67656255a328041ceb85bc082015033d8892005367c39630fb32125d9c05"
 
   def install
     bin.install "shellfirm"
