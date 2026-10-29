@@ -1,28 +1,28 @@
 class Shellfirm < Formula
   desc "Intercept any risky patterns (default or defined by you) and prompt you a small challenge for double verification"
   homepage "https://github.com/kaplanelad/shellfirm"
-  version "0.4.0"
+  version "0.4.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/kaplanelad/shellfirm/releases/download/v0.4.0/shellfirm-v0.4.0-aarch64-macos.tar.xz"
-      sha256 "6c551f1a5a3aec5c4d013bdd4d6c42fa0af56eaeaace49b1681d6c536b336ab2"
+      url "https://github.com/kaplanelad/shellfirm/releases/download/v0.4.1/shellfirm-v0.4.1-aarch64-macos.tar.xz"
+      sha256 "6ae9161e3045f7ceaaf67a0d2d8922ef72cfcc5dd39008a0e7076e5b39016cab"
     end
     on_intel do
-      url "https://github.com/kaplanelad/shellfirm/releases/download/v0.4.0/shellfirm-v0.4.0-x86_64-macos.tar.xz"
-      sha256 "2f70cbe8c7d8c67dd01d67ba20a9510447753d8608d81f5db9e08b8ce6c70633"
+      url "https://github.com/kaplanelad/shellfirm/releases/download/v0.4.1/shellfirm-v0.4.1-x86_64-macos.tar.xz"
+      sha256 "b8f13871d6882826a7e7867a4ce4bfa0284484d2ffa7b04c6c92dd686106a5c4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kaplanelad/shellfirm/releases/download/v0.4.0/shellfirm-v0.4.0-aarch64-linux.tar.xz"
-      sha256 "d62699d19ed885385c4c5600b15a73b6221b1f385f4f79f1e11072d23b25b943"
+      url "https://github.com/kaplanelad/shellfirm/releases/download/v0.4.1/shellfirm-v0.4.1-aarch64-linux.tar.xz"
+      sha256 "9142365b7ea679ccc93d2ca4e8410ca1d1a343fd350474132248b9a1a369bd23"
     end
     on_intel do
-      url "https://github.com/kaplanelad/shellfirm/releases/download/v0.4.0/shellfirm-v0.4.0-x86_64-linux.tar.xz"
-      sha256 "29f6f2650149583fa61603c2e86c7d255f6bbc62b2c17faac42a8f4968d6acf7"
+      url "https://github.com/kaplanelad/shellfirm/releases/download/v0.4.1/shellfirm-v0.4.1-x86_64-linux.tar.xz"
+      sha256 "625a398446ec72ec1a10da7c5f8381fa91c2e48dfd9e397f381b1b0bcbaf008f"
     end
   end
 
